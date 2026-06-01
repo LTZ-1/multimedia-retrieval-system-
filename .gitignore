@@ -1,0 +1,38 @@
+# Image datasets (too large)
+101_ObjectCategories/
+small_dataset/
+static/small_dataset/
+dataset/
+
+# Database and features
+data/
+features/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+env/
+venv/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+static/uploads/*
+!static/uploads/.gitkeep
